@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" preserve-order="true" thread-count="9">
+<listeners>
+
+<listener class-name="com.ExtentReport.ExtentReport"/>
+
+</listeners>
+    <test name="ChromeTest">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+       <class name="com.Dalrada.Nickandgs.TC_001Reservation_001"></class>
+       <class name="com.Dalrada.Nickandgs.TC_002OrderOnline_002"></class>
+        <class name="com.Dalrada.Nickandgs.TC_003Catering_003"></class>
+          <class name="com.Dalrada.Nickandgs.TC_004PrivateEvents_004"></class>
+           <class name="com.Dalrada.Nickandgs.TC_005ExploreMore_005"></class>
+             <class name="com.Dalrada.Nickandgs.TC_006UpcomingEvents_006"></class>
+             <class name="com.Dalrada.Nickandgs.TC_007OurMenu_007"></class>
+                <class name="com.Dalrada.Nickandgs.TC_008SignUp_008"></class>
+                    <class name="com.Dalrada.Nickandgs.TC_009NGSignup_009"></class>
+ 
+    </classes>
+    
+   </test>    
+  
+  <!-- <test name="FirefoxTest">
+  <parameter name="browser" value="Firefox" />
+  <classes>
+       <class name="com.Dalrada.Nickandgs.TC_001Reservation_001"></class>
+       <class name="com.Dalrada.Nickandgs.TC_002OrderOnline_002"></class>
+        <class name="com.Dalrada.Nickandgs.TC_003Catering_003"></class>
+        <class name="com.Dalrada.Nickandgs.TC_004PrivateEvents_004"></class>
+           <class name="com.Dalrada.Nickandgs.TC_005ExploreMore_005"></class>
+             <class name="com.Dalrada.Nickandgs.TC_006UpcomingEvents_006"></class>
+             <class name="com.Dalrada.Nickandgs.TC_007OurMenu_007"></class>
+                <class name="com.Dalrada.Nickandgs.TC_008SignUp_008"></class>
+                    <class name="com.Dalrada.Nickandgs.TC_009NGSignup_009"></class> 
+
+     </classes>
+  </test>    
+   
+   <test name="InternetTest">
+  <parameter name="browser" value="ie" />
+  <classes>
+       <class name="com.Dalrada.Nickandgs.TC_001Reservation_001"></class>
+       <class name="com.Dalrada.Nickandgs.TC_002OrderOnline_002"></class>
+        <class name="com.Dalrada.Nickandgs.TC_003Catering_003"></class>
+          <class name="com.Dalrada.Nickandgs.TC_004PrivateEvents_004"></class>
+           <class name="com.Dalrada.Nickandgs.TC_005ExploreMore_005"></class>
+             <class name="com.Dalrada.Nickandgs.TC_006UpcomingEvents_006"></class>
+             <class name="com.Dalrada.Nickandgs.TC_007OurMenu_007"></class>
+                <class name="com.Dalrada.Nickandgs.TC_008SignUp_008"></class>
+                    <class name="com.Dalrada.Nickandgs.TC_009NGSignup_009"></class> 
+
+     </classes>
+  </test>      -->
+</suite> 

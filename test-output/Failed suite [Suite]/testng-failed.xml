@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="9" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test name="Test(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="com.Dalrada.Nickandgs.TC_005ExploreMore_005">
+        <methods>
+          <include name="order"/>
+          <include name="selectBrowsers"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_005ExploreMore_005 -->
+      <class name="com.Dalrada.Nickandgs.TC_006UpcomingEvents_006">
+        <methods>
+          <include name="selectBrowsers"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_006UpcomingEvents_006 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

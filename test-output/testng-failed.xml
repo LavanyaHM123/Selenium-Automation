@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="9" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.ExtentReport.ExtentReport"/>
+  </listeners>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.Dalrada.Nickandgs.TC_003Catering_003">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_003Catering_003 -->
+      <class name="com.Dalrada.Nickandgs.TC_006UpcomingEvents_006">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_006UpcomingEvents_006 -->
+      <class name="com.Dalrada.Nickandgs.TC_001Reservation_001">
+        <methods>
+          <include name="selectBrowsers"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_001Reservation_001 -->
+      <class name="com.Dalrada.Nickandgs.TC_002OrderOnline_002">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_002OrderOnline_002 -->
+      <class name="com.Dalrada.Nickandgs.TC_005ExploreMore_005">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_005ExploreMore_005 -->
+      <class name="com.Dalrada.Nickandgs.TC_009NGSignup_009">
+        <methods>
+          <include name="Sign"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_009NGSignup_009 -->
+      <class name="com.Dalrada.Nickandgs.TC_008SignUp_008">
+        <methods>
+          <include name="Sign"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_008SignUp_008 -->
+      <class name="com.Dalrada.Nickandgs.TC_007OurMenu_007">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_007OurMenu_007 -->
+      <class name="com.Dalrada.Nickandgs.TC_004PrivateEvents_004">
+        <methods>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.Dalrada.Nickandgs.TC_004PrivateEvents_004 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
