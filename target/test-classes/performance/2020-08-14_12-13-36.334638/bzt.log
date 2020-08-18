@@ -1,0 +1,292 @@
+[2020-08-14 12:13:35,899 INFO root] Taurus CLI Tool v1.14.2
+[2020-08-14 12:13:35,902 DEBUG root] Command-line options: {'log': 'C:\\Users\\PRAKAT~1\\AppData\\Local\\Temp\\bzt_ejxolh64.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-08-14 12:13:35,902 DEBUG root] Python: CPython 3.7.5
+[2020-08-14 12:13:35,903 DEBUG root] Rev: 6cd8ae68844d2aa3e9428ed7317e9cf44c3943ad; OS: uname_result(system='Windows', node='Prakat-L005', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 61 Stepping 4, GenuineIntel')
+[2020-08-14 12:13:35,904 INFO root] Starting with configs: ['BlazeDemoPerformanceTest.yml']
+[2020-08-14 12:13:35,905 DEBUG root] Using personal config: C:\Users\Prakat-L-0005\.bzt-rc
+[2020-08-14 12:13:35,905 INFO Engine] Configuring...
+[2020-08-14 12:13:36,118 DEBUG Engine] Base configs list: ['C:\\Program Files\\Taurus\\pkgs\\bzt\\resources/10-base-config.yml']
+[2020-08-14 12:13:36,118 DEBUG Engine.Configuration] Configs: ['C:\\Program Files\\Taurus\\pkgs\\bzt\\resources/10-base-config.yml']
+[2020-08-14 12:13:36,148 DEBUG Engine.Configuration] Reading C:\Program Files\Taurus\pkgs\bzt\resources/10-base-config.yml as YAML
+[2020-08-14 12:13:36,187 DEBUG Engine] User configs list: ['C:\\Users\\Prakat-L-0005\\.bzt-rc', 'BlazeDemoPerformanceTest.yml']
+[2020-08-14 12:13:36,187 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Prakat-L-0005\\.bzt-rc', 'BlazeDemoPerformanceTest.yml']
+[2020-08-14 12:13:36,206 DEBUG Engine.Configuration] Reading C:\Users\Prakat-L-0005\.bzt-rc as YAML
+[2020-08-14 12:13:36,213 DEBUG Engine.Configuration] Reading BlazeDemoPerformanceTest.yml as YAML
+[2020-08-14 12:13:36,215 DEBUG Engine.Configuration] Configs: ['C:\\Users\\Prakat-L-0005\\.bzt-rc', 'BlazeDemoPerformanceTest.yml']
+[2020-08-14 12:13:36,216 DEBUG Engine.Configuration] Reading C:\Users\Prakat-L-0005\.bzt-rc as YAML
+[2020-08-14 12:13:36,222 DEBUG Engine.Configuration] Reading BlazeDemoPerformanceTest.yml as YAML
+[2020-08-14 12:13:36,334 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.2&installID=docker-3052cb1121ac
+[2020-08-14 12:13:36,334 INFO Engine] Artifacts dir: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638
+[2020-08-14 12:13:36,334 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.2&installID=docker-3052cb1121ac
+[2020-08-14 12:13:36,336 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective
+[2020-08-14 12:13:36,342 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.yml
+[2020-08-14 12:13:36,354 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2020-08-14 12:13:36,375 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.json
+[2020-08-14 12:13:36,379 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\merged.yml
+[2020-08-14 12:13:36,380 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\merged.yml
+[2020-08-14 12:13:36,384 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\merged.json
+[2020-08-14 12:13:36,385 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\merged.json
+[2020-08-14 12:13:36,388 DEBUG Engine] Add existing artifact (move=False): BlazeDemoPerformanceTest.yml
+[2020-08-14 12:13:36,388 DEBUG Engine] Copying BlazeDemoPerformanceTest.yml to C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\BlazeDemoPerformanceTest.yml
+[2020-08-14 12:13:36,393 DEBUG root] Closing log handler: C:\Users\PRAKAT~1\AppData\Local\Temp\bzt_ejxolh64.log
+[2020-08-14 12:13:36,401 DEBUG root] Switched writing logs to C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\bzt.log
+[2020-08-14 12:13:36,401 DEBUG root] Linting config
+[2020-08-14 12:13:36,405 INFO Engine] Preparing...
+[2020-08-14 12:13:36,406 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-08-14 12:13:36,406 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-08-14 12:13:40,497 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.14.2&installID=docker-3052cb1121ac HTTP/1.1" 200 40
+[2020-08-14 12:13:40,498 DEBUG Engine] Taurus updates info: {'latest': '1.14.2', 'needsUpgrade': False}
+[2020-08-14 12:13:40,498 DEBUG Engine] Installation is up-to-date
+[2020-08-14 12:13:45,579 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\aggregator.py'>
+[2020-08-14 12:13:45,580 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-08-14 12:13:45,580 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-08-14 12:13:45,580 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-08-14 12:13:45,643 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\monitoring.py'>
+[2020-08-14 12:13:45,643 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-08-14 12:13:45,644 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-08-14 12:13:45,644 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\provisioning.py'>
+[2020-08-14 12:13:45,644 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2020-08-14 12:13:45,644 DEBUG root] Importing module: bzt.modules.jmeter
+[2020-08-14 12:13:45,947 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\jmeter.py'>
+[2020-08-14 12:13:45,947 DEBUG Engine.local] Preparing executor: jmeter/2125638197832
+[2020-08-14 12:13:45,948 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\jmeter.log
+[2020-08-14 12:13:45,948 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2020-08-14 12:13:45,950 DEBUG Engine.jmeter] Port 4445 is free
+[2020-08-14 12:13:45,951 DEBUG Engine.jmeter] Using port 4445 for management
+[2020-08-14 12:13:45,952 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\requests.jmx
+[2020-08-14 12:13:45,954 DEBUG root] Importing module: bzt.jmx.http
+[2020-08-14 12:13:45,979 DEBUG root] Loading class: 'HTTPProtocolHandler' from <module 'bzt.jmx.http' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\jmx\\http.py'>
+[2020-08-14 12:13:45,984 DEBUG JMeterScenarioBuilder] Saving JMX to: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\requests.jmx
+[2020-08-14 12:13:45,988 DEBUG Engine.jmeter] Additional system properties {'sun.net.inetaddr.ttl': 0}
+[2020-08-14 12:13:45,988 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\system.properties
+[2020-08-14 12:13:45,993 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'C:/Users/Prakat-L-0005/Desktop/Automation pipeline/e2e-automation-pipeline-master/src/test/java/performance/2020-08-14_12-13-36.334638;C:/Users/Prakat-L-0005/Desktop/Automation pipeline/e2e-automation-pipeline-master/src/test/java/performance/2020-08-14_12-13-36.334638'}
+[2020-08-14 12:13:45,994 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\jmeter-bzt.properties
+[2020-08-14 12:13:46,000 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2020-08-14 12:13:46,001 DEBUG root] Executing shell: ['java', '-version'] at .
+[2020-08-14 12:13:46,501 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_202"
+Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
+
+[2020-08-14 12:13:46,502 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2020-08-14 12:13:46,502 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2020-08-14 12:13:46,502 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2020-08-14 12:13:46,504 DEBUG root] Executing shell: ['C:\\Users\\Prakat-L-0005\\.bzt\\jmeter-taurus\\5.2.1\\bin\\jmeter.bat', '-j', 'C:\\Users\\PRAKAT~1\\AppData\\Local\\Temp\\jmeter1t7e37ehlog', '--version'] at .
+[2020-08-14 12:14:09,064 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / 
+[2020-08-14 12:14:09,067 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\kpi.jtl
+[2020-08-14 12:14:09,068 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\error.jtl
+[2020-08-14 12:14:09,069 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=10, throughput=None, ramp_up=60.0, hold=90.0, iterations=0, duration=150.0, steps=None)
+[2020-08-14 12:14:09,121 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (basic-performance-test) to ConcurrencyThreadGroup and apply load parameters
+[2020-08-14 12:14:09,122 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+[2020-08-14 12:14:09,122 DEBUG JMX] Saving JMX to: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+[2020-08-14 12:14:09,138 DEBUG root] Executing shell: ['C:\\Users\\Prakat-L-0005\\.bzt\\jmeter-taurus\\5.2.1\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'C:\\Users\\Prakat-L-0005\\Desktop\\Automation pipeline\\e2e-automation-pipeline-master\\src\\test\\java\\performance\\2020-08-14_12-13-36.334638\\modified_requests.jmx'] at .
+[2020-08-14 12:14:26,332 DEBUG Engine.jmeter.JMeter] Try to detect plugins for C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+2020-08-14 12:14:13,469 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2020-08-14 12:14:15,755 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=docker-90b612754f78d870e7c1f441bc24cf5d-nongui
+2020-08-14 12:14:22,071 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1]
+2020-08-14 12:14:22,076 INFO o.j.r.PluginManagerCMD: Params line is: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+2020-08-14 12:14:23,482 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-08-14 12:14:23,559 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-08-14 12:14:23,584 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-08-14 12:14:24,116 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2020-08-14 12:14:24,126 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-08-14 12:14:24,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-14 12:14:24,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-14 12:14:24,905 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-14 12:14:24,906 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-14 12:14:24,906 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-08-14 12:14:24,906 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-08-14 12:14:25,196 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2020-08-14 12:14:26,332 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\jmeter.out
+[2020-08-14 12:14:26,334 DEBUG Engine] New artifact filename: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\jmeter.err
+[2020-08-14 12:14:26,336 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2020-08-14 12:14:26,337 DEBUG root] Importing module: bzt.modules.reporting
+[2020-08-14 12:14:26,742 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\reporting.py'>
+[2020-08-14 12:14:26,743 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2020-08-14 12:14:26,743 DEBUG root] Importing module: bzt.modules.console
+[2020-08-14 12:14:26,743 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Program Files\\Taurus\\pkgs\\bzt\\modules\\console.py'>
+[2020-08-14 12:14:26,743 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2020-08-14 12:14:26,758 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.yml
+[2020-08-14 12:14:26,824 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.json
+[2020-08-14 12:14:26,828 INFO Engine] Starting...
+[2020-08-14 12:14:26,829 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x000001EEE9E5F488>
+[2020-08-14 12:14:26,829 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x000001EEE302A908>
+[2020-08-14 12:14:26,830 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x000001EEE9F11F08>
+[2020-08-14 12:14:26,830 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x000001EEE9EFB988>
+[2020-08-14 12:14:26,830 INFO Engine.console] Waiting for results...
+[2020-08-14 12:14:26,830 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x000001EEE3026788>
+[2020-08-14 12:14:26,831 DEBUG Engine.local] Delay setup for jmeter/basic-performance-test: 0(start-at) + 0(delay) = 0
+[2020-08-14 12:14:26,834 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.yml
+[2020-08-14 12:14:26,897 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.json
+[2020-08-14 12:14:26,905 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-08-14 12:14:26,906 DEBUG root] Leveled up log file verbosity
+[2020-08-14 12:14:26,908 DEBUG root] Executing shell: ['C:\\Users\\Prakat-L-0005\\.bzt\\jmeter-taurus\\5.2.1\\bin\\jmeter.bat', '-t', 'C:\\Users\\Prakat-L-0005\\Desktop\\Automation pipeline\\e2e-automation-pipeline-master\\src\\test\\java\\performance\\2020-08-14_12-13-36.334638\\modified_requests.jmx', '-j', 'C:\\Users\\Prakat-L-0005\\Desktop\\Automation pipeline\\e2e-automation-pipeline-master\\src\\test\\java\\performance\\2020-08-14_12-13-36.334638\\jmeter.log', '-q', 'C:\\Users\\Prakat-L-0005\\Desktop\\Automation pipeline\\e2e-automation-pipeline-master\\src\\test\\java\\performance\\2020-08-14_12-13-36.334638\\jmeter-bzt.properties', '-n', '-S', 'C:\\Users\\Prakat-L-0005\\Desktop\\Automation pipeline\\e2e-automation-pipeline-master\\src\\test\\java\\performance\\2020-08-14_12-13-36.334638\\system.properties'] at C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance
+[2020-08-14 12:14:26,982 DEBUG Engine.local] Starting execution: jmeter/basic-performance-test, rest of available slots: 9223372036854775806
+[2020-08-14 12:14:26,982 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-08-14 12:14:27,719 INFO Engine.console] Did not mute console logging
+[2020-08-14 12:14:32,498 INFO Engine.console] Waiting for finish...
+[2020-08-14 12:15:25,758 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 53s
+[2020-08-14 12:16:13,850 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 65s
+[2020-08-14 12:16:32,829 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 74s
+[2020-08-14 12:17:45,442 WARNING Engine] Please wait for graceful shutdown...
+[2020-08-14 12:17:45,442 DEBUG root] Leveled up log file verbosity
+[2020-08-14 12:17:45,442 INFO Engine] Shutting down...
+[2020-08-14 12:17:45,443 DEBUG Engine] Current stop reason: None
+[2020-08-14 12:17:45,443 DEBUG Engine.local] Shutdown jmeter/basic-performance-test
+[2020-08-14 12:17:45,795 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-08-14 12:17:45,800 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.yml
+[2020-08-14 12:17:45,857 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.json
+[2020-08-14 12:17:45,864 INFO Engine] Post-processing...
+[2020-08-14 12:17:45,865 DEBUG Engine.local] Post-process jmeter/basic-performance-test
+[2020-08-14 12:17:45,865 DEBUG Engine] Add existing artifact (move=True): C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+[2020-08-14 12:17:45,866 DEBUG Engine] No need to copy C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\modified_requests.jmx
+[2020-08-14 12:17:45,871 DEBUG Engine.jmeter.JTLReader] Buffer len: 20; Known errors count: 0
+[2020-08-14 12:17:45,871 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387559, 20 in buffer
+[2020-08-14 12:17:45,876 DEBUG Engine.jmeter.JTLReader] Buffer len: 19; Known errors count: 0
+[2020-08-14 12:17:45,966 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387562, 19 in buffer
+[2020-08-14 12:17:45,971 DEBUG Engine.jmeter.JTLReader] Buffer len: 18; Known errors count: 0
+[2020-08-14 12:17:46,053 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387566, 18 in buffer
+[2020-08-14 12:17:46,057 DEBUG Engine.jmeter.JTLReader] Buffer len: 17; Known errors count: 0
+[2020-08-14 12:17:46,141 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387567, 17 in buffer
+[2020-08-14 12:17:46,144 DEBUG Engine.jmeter.JTLReader] Buffer len: 16; Known errors count: 0
+[2020-08-14 12:17:46,227 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387570, 16 in buffer
+[2020-08-14 12:17:46,231 DEBUG Engine.jmeter.JTLReader] Buffer len: 15; Known errors count: 0
+[2020-08-14 12:17:46,303 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387574, 15 in buffer
+[2020-08-14 12:17:46,304 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:46,304 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:46,309 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:46,311 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:46,317 DEBUG Engine.jmeter.JTLReader] Buffer len: 14; Known errors count: 0
+[2020-08-14 12:17:46,646 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387575, 14 in buffer
+[2020-08-14 12:17:46,657 DEBUG Engine.jmeter.JTLReader] Buffer len: 13; Known errors count: 0
+[2020-08-14 12:17:46,808 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387578, 13 in buffer
+[2020-08-14 12:17:46,814 DEBUG Engine.jmeter.JTLReader] Buffer len: 12; Known errors count: 0
+[2020-08-14 12:17:46,964 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387584, 12 in buffer
+[2020-08-14 12:17:46,970 DEBUG Engine.jmeter.JTLReader] Buffer len: 11; Known errors count: 0
+[2020-08-14 12:17:47,131 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 89s
+[2020-08-14 12:17:47,134 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387589, 11 in buffer
+[2020-08-14 12:17:47,138 DEBUG Engine.jmeter.JTLReader] Buffer len: 10; Known errors count: 0
+[2020-08-14 12:17:47,223 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 97s
+[2020-08-14 12:17:47,223 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387592, 10 in buffer
+[2020-08-14 12:17:47,226 DEBUG Engine.jmeter.JTLReader] Buffer len: 9; Known errors count: 0
+[2020-08-14 12:17:47,308 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387594, 9 in buffer
+[2020-08-14 12:17:47,312 DEBUG Engine.jmeter.JTLReader] Buffer len: 8; Known errors count: 0
+[2020-08-14 12:17:47,426 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387600, 8 in buffer
+[2020-08-14 12:17:47,431 DEBUG Engine.jmeter.JTLReader] Buffer len: 7; Known errors count: 0
+[2020-08-14 12:17:47,561 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387602, 7 in buffer
+[2020-08-14 12:17:47,565 DEBUG Engine.jmeter.JTLReader] Buffer len: 6; Known errors count: 0
+[2020-08-14 12:17:47,714 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387608, 6 in buffer
+[2020-08-14 12:17:47,722 DEBUG Engine.jmeter.JTLReader] Buffer len: 5; Known errors count: 0
+[2020-08-14 12:17:47,903 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387615, 5 in buffer
+[2020-08-14 12:17:47,911 DEBUG Engine.jmeter.JTLReader] Buffer len: 4; Known errors count: 0
+[2020-08-14 12:17:48,080 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 89s
+[2020-08-14 12:17:48,081 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387619, 4 in buffer
+[2020-08-14 12:17:48,087 DEBUG Engine.jmeter.JTLReader] Buffer len: 3; Known errors count: 0
+[2020-08-14 12:17:48,421 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387621, 3 in buffer
+[2020-08-14 12:17:48,427 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 0
+[2020-08-14 12:17:48,587 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387630, 2 in buffer
+[2020-08-14 12:17:48,591 DEBUG Engine.jmeter.JTLReader] Buffer len: 1; Known errors count: 0
+[2020-08-14 12:17:48,696 DEBUG Engine.jmeter.JTLReader] Aggregating: 1597387632, 1 in buffer
+[2020-08-14 12:17:48,704 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 0
+[2020-08-14 12:17:48,706 DEBUG Engine.consolidator] Consolidator buffer[21]: dict_keys([1597387558, 1597387559, 1597387562, 1597387566, 1597387567, 1597387570, 1597387574, 1597387575, 1597387578, 1597387584, 1597387589, 1597387592, 1597387594, 1597387600, 1597387602, 1597387608, 1597387615, 1597387619, 1597387621, 1597387630, 1597387632])
+[2020-08-14 12:17:48,707 DEBUG Engine.consolidator] Merging into 1597387558
+[2020-08-14 12:17:48,707 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:48,930 DEBUG Engine.consolidator] Processed datapoint: 1597387558/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:48,930 DEBUG Engine.consolidator] Merging into 1597387559
+[2020-08-14 12:17:48,930 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:49,103 DEBUG Engine.consolidator] Processed datapoint: 1597387559/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:49,103 DEBUG Engine.consolidator] Merging into 1597387562
+[2020-08-14 12:17:49,104 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:49,325 DEBUG Engine.consolidator] Processed datapoint: 1597387562/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:49,325 DEBUG Engine.consolidator] Merging into 1597387566
+[2020-08-14 12:17:49,325 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:49,613 DEBUG Engine.consolidator] Processed datapoint: 1597387566/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:49,614 DEBUG Engine.consolidator] Merging into 1597387567
+[2020-08-14 12:17:49,614 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:49,851 DEBUG Engine.consolidator] Processed datapoint: 1597387567/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:49,851 DEBUG Engine.consolidator] Merging into 1597387570
+[2020-08-14 12:17:49,852 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:50,472 DEBUG Engine.consolidator] Processed datapoint: 1597387570/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:50,472 DEBUG Engine.consolidator] Merging into 1597387574
+[2020-08-14 12:17:50,473 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:50,474 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:50,475 DEBUG aggregator] Growing HDR from 38000.0 to 58000.0
+[2020-08-14 12:17:51,189 DEBUG Engine.consolidator] Processed datapoint: 1597387574/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:51,189 DEBUG Engine.consolidator] Merging into 1597387575
+[2020-08-14 12:17:51,190 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:51,446 DEBUG Engine.consolidator] Processed datapoint: 1597387575/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:51,446 DEBUG Engine.consolidator] Merging into 1597387578
+[2020-08-14 12:17:51,446 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:51,598 DEBUG Engine.consolidator] Processed datapoint: 1597387578/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:51,598 DEBUG Engine.consolidator] Merging into 1597387584
+[2020-08-14 12:17:51,598 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:51,757 DEBUG Engine.consolidator] Processed datapoint: 1597387584/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:51,757 DEBUG Engine.consolidator] Merging into 1597387589
+[2020-08-14 12:17:51,757 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:51,913 DEBUG Engine.consolidator] Processed datapoint: 1597387589/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:51,913 DEBUG Engine.consolidator] Merging into 1597387592
+[2020-08-14 12:17:51,913 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,055 DEBUG Engine.consolidator] Processed datapoint: 1597387592/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,055 DEBUG Engine.consolidator] Merging into 1597387594
+[2020-08-14 12:17:52,055 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,200 DEBUG Engine.consolidator] Processed datapoint: 1597387594/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,200 DEBUG Engine.consolidator] Merging into 1597387600
+[2020-08-14 12:17:52,201 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,367 DEBUG Engine.consolidator] Processed datapoint: 1597387600/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,367 DEBUG Engine.consolidator] Merging into 1597387602
+[2020-08-14 12:17:52,367 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,560 DEBUG Engine.consolidator] Processed datapoint: 1597387602/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,560 DEBUG Engine.consolidator] Merging into 1597387608
+[2020-08-14 12:17:52,561 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,753 DEBUG Engine.consolidator] Processed datapoint: 1597387608/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,754 DEBUG Engine.consolidator] Merging into 1597387615
+[2020-08-14 12:17:52,754 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:52,931 DEBUG Engine.consolidator] Processed datapoint: 1597387615/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:52,931 DEBUG Engine.consolidator] Merging into 1597387619
+[2020-08-14 12:17:52,932 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:53,116 DEBUG Engine.consolidator] Processed datapoint: 1597387619/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:53,116 DEBUG Engine.consolidator] Merging into 1597387621
+[2020-08-14 12:17:53,116 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:53,277 DEBUG Engine.consolidator] Processed datapoint: 1597387621/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:53,277 DEBUG Engine.consolidator] Merging into 1597387630
+[2020-08-14 12:17:53,278 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:53,442 DEBUG Engine.consolidator] Processed datapoint: 1597387630/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:53,442 DEBUG Engine.consolidator] Merging into 1597387632
+[2020-08-14 12:17:53,443 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-08-14 12:17:53,630 DEBUG Engine.consolidator] Processed datapoint: 1597387632/ConsolidatingAggregator@2125522446600
+[2020-08-14 12:17:53,631 INFO Engine.final-stats] Test duration: 0:03:19
+[2020-08-14 12:17:53,632 INFO Engine.final-stats] Samples count: 45, 0.00% failures
+[2020-08-14 12:17:53,633 INFO Engine.final-stats] Average times: total 28.756, latency 0.660, connect 0.178
+[2020-08-14 12:17:53,634 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |        22.816 |
+|          50.0 |        25.872 |
+|          90.0 |        37.248 |
+|          95.0 |         44.64 |
+|          99.0 |        57.248 |
+|          99.9 |        57.248 |
+|         100.0 |        57.248 |
++---------------+---------------+
+[2020-08-14 12:17:53,650 INFO Engine.final-stats] Request label stats:
++-----------------------+--------+---------+--------+-------+
+| label                 | status |    succ | avg_rt | error |
++-----------------------+--------+---------+--------+-------+
+| http://blazedemo.com/ |   OK   | 100.00% | 28.756 |       |
++-----------------------+--------+---------+--------+-------+
+[2020-08-14 12:17:53,651 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-08-14 12:17:53,654 DEBUG Engine.Configuration] Dumping YAML config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.yml
+[2020-08-14 12:17:53,691 DEBUG Engine.Configuration] Dumping JSON config into C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\effective.json
+[2020-08-14 12:17:53,695 INFO root] Artifacts dir: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638
+[2020-08-14 12:17:53,696 INFO root] Done performing with code: 0
+[2020-08-14 12:17:53,700 DEBUG root] Closing log handler: C:\Users\Prakat-L-0005\Desktop\Automation pipeline\e2e-automation-pipeline-master\src\test\java\performance\2020-08-14_12-13-36.334638\bzt.log
